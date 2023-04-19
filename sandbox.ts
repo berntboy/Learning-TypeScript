@@ -1,4 +1,5 @@
-const character = "mario";
+let character = "mario";
+character = "Yoshi";
 
 console.log(character);
 

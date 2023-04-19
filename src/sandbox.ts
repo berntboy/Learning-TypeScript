@@ -1,10 +1,12 @@
-let character = "mario";
-character = "Yoshi";
+let greet: Function;
 
-console.log("hello");
+greet = () => {
+  console.log("hello, again");
+};
 
-const inputs = document.querySelectorAll("input");
+const add = (a: number, b: number, c: number | string = 10) => {
+  console.log(a + b);
+  console.log(c);
+};
 
-inputs.forEach((input) => {
-  console.log(input);
-});
+add(5, 10, "20");

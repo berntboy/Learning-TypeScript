@@ -1,8 +1,10 @@
 "use strict";
-let character = "mario";
-character = "Yoshi";
-console.log("hello");
-const inputs = document.querySelectorAll("input");
-inputs.forEach((input) => {
-    console.log(input);
-});
+let greet;
+greet = () => {
+    console.log("hello, again");
+};
+const add = (a, b, c = 10) => {
+    console.log(a + b);
+    console.log(c);
+};
+add(5, 10, "20");
